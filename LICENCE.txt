@@ -1,3 +1,14 @@
+Copyright (c) 2012 BlueHead Publishing
+All rights reserved. See Contributors for complete list.
+
+This software is based upon the generous work of the
+RailsInstaller Team and is released under the same license,
+listed below. Please offer them lauded praises!!!
+
+~~~~~
+RailsInstaller License
+~~~~~
+
 Copyright (c) 2010-2011 RailsInstaller Team.
 All rights reserved. See CONTRIBUTORS for complete list.
 

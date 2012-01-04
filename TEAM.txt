@@ -1,2 +1,1 @@
-Luis Lavena (luislavena+railsinstaller@gmail.com)
-Wayne E. Seguin (wayneeseguin+railsinstaller@gmail.com)
+D.a. Thompson (dandrew.thompson@gmail.com)

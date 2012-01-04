@@ -7,6 +7,14 @@
 # as YAML formatted document. Thank you.
 
 ---
+# For bookshopinstaller-windows
+
+- D.a. Thompson
+	:email: da@dathompson.com
+	:website: http://dathompson.blogspot.com
+
+# For railsinstaller - which bookshopinstaller is built from
+
 - Wayne E. Seguin
   :email: wayneeseguin+railsinstaller@gmail.com
   :website: http://rvm.beginrescueend.com/
