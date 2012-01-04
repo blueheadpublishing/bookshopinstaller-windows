@@ -1,0 +1,7 @@
+*.rbc
+*.exe
+stage/
+.idea/
+archives/
+*.swp
+*~
