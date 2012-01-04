@@ -1,37 +1,37 @@
-# RailsInstaller
+# bookshop Installer
 
-Rails development environment installer for Windows
+bookshop development environment installer for Windows
 
 ## Overview
 
 The goal of this project is to generate an installer that when run installs all
-of the most common components for a Rails development environment with no
+of the most common components for a bookshop development environment with no
 required prerequisites on a Windows system.
 
 ## How to Contribute
 
-RailsInstaller project code repository is located on GitHub and is bootstrapped,
+bookshop Installer project code repository is located on GitHub and is bootstrapped,
 built and packaged via rake tasks.
 
 1. Download and install the latest
-   [RailsInstaller](http://railsinstaller.org/)
+   [bookshop Installer](http://blueheadpublishing.github.com/bookshop/installer/)
 
 1. Download and install latest
    [Inno Setup Quick Start Pack](http://www.jrsoftware.org/isdl.php#qsp),
    ensure iscc.exe is in your PATH
 
 1. [Fork](http://help.github.com/fork-a-repo/)
-   the [RailsInstaller project on github](https://github.com/railsinstaller/railsinstaller-windows.git)
+   the [bookshop Installer project on github](https://github.com/blueheadpublishing/bookshopinstaller-windows.git)
    into your own github account
 
-1. Open the RailsInstaller Command prompt from the start menu RailsInstaller
+1. Open the bookshop Installer Command prompt from the start menu bookshop Installer
    group and change directories to where you like to keep your projects.
 
 1. Clone your fork of the project
 
-    > git clone git@github.com:{{your github user name}}/railsinstaller-windows
+    > git clone git@github.com:{{your github user name}}/bookshopinstaller-windows
 
-    > cd railsinstaller-windows
+    > cd bookshopinstaller-windows
 
 1. Update from origin master branch and checkout a new topic branch for
    your feature/bugfix.
@@ -46,12 +46,12 @@ built and packaged via rake tasks.
 
     > rake bootstrap
 
-1. Implement your new feature / fix your bug in the railsinstaller project code.
+1. Implement your new feature / fix your bug in the bookshopinstaller project code.
    Configuration of the packages are to be included are found in the
-   config/railsinstaller.yml file. Building of the installer into the stage path
+   config/bookshopinstaller.yml file. Building of the installer into the stage path
    for packaging happens from the Ruby code in the lib/ directory, starting from
-   the file lib/railsinstaller/actions.rb. Methods called from actions
-   file are implemented in lib/railsinstaller/methods.rb. In order to kick off a
+   the file lib/bookshopinstaller/actions.rb. Methods called from actions
+   file are implemented in lib/bookshopinstaller/methods.rb. In order to kick off a
    build into the stage/ directory run the following rake command.
 
 1. Next build all components on the stage
@@ -66,7 +66,7 @@ built and packaged via rake tasks.
 
      > rake package
 
-1. Use Inno Setup to package RailsInstaller (NOTE that You can run the package
+1. Use Inno Setup to package bookshop Installer (NOTE that You can run the package
    task with --trace for debugging output if the package fails to build or if
    you simply want to see what is being done as it is done).
 
@@ -80,9 +80,9 @@ built and packaged via rake tasks.
 
 1. Now issue a [pull request](http://help.github.com/pull-requests/) on GitHub
 
-# RailsInstaller Components
+# bookshop Installer Components
 
-The next few sections detail the core copmonents that make up RailsInstaller.
+The next few sections detail the core components that make up bookshop Installer.
 
 ### Ruby 1.8.7/1.9.2 on Windows
 
@@ -92,13 +92,13 @@ information.
 
 ### Development Kit (DevKit)
 
-A MSYS/MinGW based toolkit that enables RailsInstaller to build native C/C++
+A MSYS/MinGW based toolkit that enables bookshop Installer to build native C/C++
 packages, both for Ruby and gems. DevKit is built and maintained by the
 wonderful folks over at the RubyInstaller (http://rubyinstaller.org/) project.
 
 ### Git
 
-The git version that is bundled into RailsInstaller is
+The git version that is bundled into bookshop Installer is
 [msysgit](http://code.google.com/p/msysgit/)
 
 ### Packaging/Installer
